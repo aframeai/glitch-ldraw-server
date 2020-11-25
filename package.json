@@ -1,0 +1,31 @@
+{
+  "name": "glitch-ldraw-server",
+  "version": "0.0.1",
+  "description": "L-Draw parts server for glitch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aframeai/glitch-ldraw-server.git"
+  },
+  "keywords": [
+    "ldraw",
+    "glitch",
+    "lego",
+    "parts",
+    "server"
+  ],
+  "author": "Martin Schneider <craftoid@k2g2.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aframeai/glitch-ldraw-server/issues"
+  },
+  "homepage": "https://github.com/aframeai/glitch-ldraw-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-static-zip": "^0.2.2"
+  }
+}
